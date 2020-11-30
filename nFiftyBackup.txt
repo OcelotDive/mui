@@ -1,0 +1,1918 @@
+<section class="NFRCMainPageC">
+    <img class="NFRCImageC" src="http://screens.betfredretail.com/Images/Background/NfiftyDrawResult0520.webp" imageonload="ImageLoaded()" ng-if="page.FullResult === 'True'"/>
+    <div class="NFRCBackgroundColourC" ng-if="page.FullResult === 'False'"></div>
+<section class="snowflakesMainStrip" ng-if="page.Christmas === 'True'">
+	<!--snowflakes one anim-->
+	<div class="snowflakes" ng-if="page.Num1 && !page.Num2">
+	
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+	</div>
+	<!--snowflakes one fixed-->
+	<div class="snowflakes" ng-if="page.Num1 && page.Num2">
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+	</div>
+	
+	<!--snowflakes two anim-->
+	<div class="snowflakes2"  ng-if="page.Num2 && !page.Num3">
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>	
+	</div>
+	
+	<!--snowflakes two fixed-->
+	<div class="snowflakes2"  ng-if="page.Num2 && page.Num3">
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>	
+	</div>
+	
+	
+	<!--snowflakes three anim-->
+	<div class="snowflakes3"  ng-if="page.Num3 && !page.Num4">
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>	
+	</div>
+	
+	<!--snowflakes three fixed-->
+	<div class="snowflakes3"  ng-if="page.Num3 && page.Num4">
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>	
+	</div>
+	
+	<!--snowflakes four anim-->
+	<div class="snowflakes4"  ng-if="page.Num4 && !page.Num5">
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>	
+	</div>
+	
+	<!--snowflakes four fixed-->
+	<div class="snowflakes4"  ng-if="page.Num4 && page.Num5">
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>	
+	</div>
+	
+	
+	<!--snowflakes five anim-->
+	<div class="snowflakes5"  ng-if="page.Num5 && !page.Num6">
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>	
+	</div>
+	
+	<!--snowflakes five fixed-->
+	<div class="snowflakes5"  ng-if="page.Num5 && page.Num6">
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>	
+	</div>
+	
+		<!--snowflakes six anim-->
+	<div class="snowflakes6"  ng-if="page.Num6 && !page.Bonus">
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>	
+	</div>
+	
+	<!--snowflakes six fixed-->
+	<div class="snowflakes6"  ng-if="page.Num6 && page.Bonus">
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>	
+	</div>
+	
+		<!--snowflakes bonus anim-->
+		<div class="snowflakesBonus"  ng-if="page.Bonus && page.FullResult === 'False'">
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>
+		<div class="snowflake">
+			❆
+		</div>
+		<div class="snowflake">
+			❅
+		</div>	
+	</div>
+	
+	<!--snowflakes bonus fixed-->
+	<div class="snowflakesBonus"  ng-if="page.Bonus && page.FullResult === 'True'">
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>
+		<div class="snowflakeStaticPos">
+			❆
+		</div>
+		<div class="snowflakeStaticPos">
+			❅
+		</div>	
+	</div>
+
+	
+	
+	
+	</section>
+    <section class="NFRCNumbersMainStripC" ng-if="page.RecapAnim === 'False'">
+    
+    	<div class="NFRCBallOneC" ng-if="!page.Num2">
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 1 && page.Num1 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 11 && page.Num1 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 21 && page.Num1 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 31 && page.Num1 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 41 && page.Num1 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num1}}
+        </div>
+        </div>
+        
+        <div class="NFRCBallOneC NFRCBallDrawnC" ng-if="page.Num2">
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 1 && page.Num1 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 11 && page.Num1 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 21 && page.Num1 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 31 && page.Num1 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 41 && page.Num1 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num1}}
+        </div>
+        </div>
+        
+
+      
+        <div class="NFRCBallTwoC" ng-if="!page.Num3">
+           	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 1 && page.Num2 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 11 && page.Num2 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 21 && page.Num2 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 31 && page.Num2 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 41 && page.Num2 <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Num2}}
+       	 </div>
+        </div>
+        
+        <div class="NFRCBallTwoC NFRCBallDrawnC" ng-if="page.Num3">
+           	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 1 && page.Num2 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 11 && page.Num2 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 21 && page.Num2 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 31 && page.Num2 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 41 && page.Num2 <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Num2}}
+       	 </div>
+        </div>
+        
+        <div class="NFRCBallThreeC" ng-if="!page.Num4">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 1 && page.Num3 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 11 && page.Num3 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 21 && page.Num3 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 31 && page.Num3 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 41 && page.Num3 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num3}}
+        	</div>
+        </div>
+        
+        <div class="NFRCBallThreeC NFRCBallDrawnC" ng-if="page.Num4">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 1 && page.Num3 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 11 && page.Num3 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 21 && page.Num3 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 31 && page.Num3 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 41 && page.Num3 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num3}}
+        	</div>
+        </div>
+        
+        <div class="NFRCBallFourC" ng-if="!page.Num5">
+             <img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 1 && page.Num4 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 11 && page.Num4 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 21 && page.Num4 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 31 && page.Num4 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 41 && page.Num4 <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Num4}}
+       	 </div>
+        </div>
+        
+        <div class="NFRCBallFourC NFRCBallDrawnC" ng-if="page.Num5">
+             <img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 1 && page.Num4 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 11 && page.Num4 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 21 && page.Num4 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 31 && page.Num4 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 41 && page.Num4 <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Num4}}
+       	 </div>
+        </div>
+        
+        <div class="NFRCBallFiveC" ng-if="!page.Num6">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 1 && page.Num5 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 11 && page.Num5 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 21 && page.Num5 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 31 && page.Num5 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 41 && page.Num5 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num5}}
+        	</div>
+        </div>
+        
+        <div class="NFRCBallFiveC NFRCBallDrawnC" ng-if="page.Num6">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 1 && page.Num5 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 11 && page.Num5 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 21 && page.Num5 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 31 && page.Num5 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 41 && page.Num5 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num5}}
+        	</div>
+        </div>
+        
+        <div class="NFRCBallSixC" ng-if="!page.Bonus">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 1 && page.Num6 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 11 && page.Num6 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 21 && page.Num6 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 31 && page.Num6 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 41 && page.Num6 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num6}}
+        	</div>
+        </div>
+        
+         <div class="NFRCBallSixC NFRCBallDrawnC" ng-if="page.Bonus">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 1 && page.Num6 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 11 && page.Num6 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 21 && page.Num6 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 31 && page.Num6 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 41 && page.Num6 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num6}}
+        	</div>
+        </div>
+        
+        <div class="NFRCBonusC" ng-if="page.FullResult === 'False'">
+        <p class="NFRCBonusBannerC" ng-if="page.Bonus">Bonus Ball <img class="NFRCbowImageC" src="http://screens.betfredretail.com/Images/Background/nFiftyChristmasBow.webp" imageonload="ImageLoaded()" ng-if="page.Christmas === 'True'"/></P>
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 1 && page.Bonus <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 11 && page.Bonus <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 21 && page.Bonus <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 31 && page.Bonus <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 41 && page.Bonus <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Bonus}}
+       	</div>
+       	</div>
+       	
+       <div class="NFRCBonusC NFRCBallDrawnC" ng-if="page.FullResult === 'True'">
+        <p class="NFRCBonusBannerC" ng-if="page.Bonus">Bonus Ball <img class="NFRCbowImageC" src="http://screens.betfredretail.com/Images/Background/nFiftyChristmasBow.webp" imageonload="ImageLoaded()" ng-if="page.Christmas === 'True'"/></p>
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 1 && page.Bonus <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 11 && page.Bonus <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 21 && page.Bonus <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 31 && page.Bonus <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 41 && page.Bonus <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Bonus}}
+       	</div>
+       	</div>
+       	
+       
+       	
+       	
+       	
+       	
+    </section>
+    
+     <section class="NFRCNumbersMainStripC" ng-if="page.RecapAnim === 'True'">
+
+        <div class="NFRCBallOneC NFRCBallDrawnC ballOneRecap">
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 1 && page.Num1 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 11 && page.Num1 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 21 && page.Num1 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 31 && page.Num1 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num1 && page.Num1 >= 41 && page.Num1 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num1}}
+        </div>
+        </div>
+        
+        <div class="NFRCBallTwoC NFRCBallDrawnC ballTwoRecap">
+           	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 1 && page.Num2 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 11 && page.Num2 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 21 && page.Num2 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 31 && page.Num2 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num2 && page.Num2 >= 41 && page.Num2 <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Num2}}
+       	 </div>
+        </div>
+        
+        <div class="NFRCBallThreeC NFRCBallDrawnC ballThreeRecap">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 1 && page.Num3 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 11 && page.Num3 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 21 && page.Num3 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 31 && page.Num3 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num3 && page.Num3 >= 41 && page.Num3 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num3}}
+        	</div>
+        </div>
+        
+        <div class="NFRCBallFourC NFRCBallDrawnC ballFourRecap">
+             <img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 1 && page.Num4 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 11 && page.Num4 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 21 && page.Num4 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 31 && page.Num4 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num4 && page.Num4 >= 41 && page.Num4 <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Num4}}
+       	 </div>
+        </div>
+        
+        <div class="NFRCBallFiveC NFRCBallDrawnC ballFiveRecap">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 1 && page.Num5 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 11 && page.Num5 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 21 && page.Num5 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 31 && page.Num5 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num5 && page.Num5 >= 41 && page.Num5 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num5}}
+        	</div>
+        </div>
+        
+         <div class="NFRCBallSixC NFRCBallDrawnC ballSixRecap">
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 1 && page.Num6 <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 11 && page.Num6 <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 21 && page.Num6 <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 31 && page.Num6 <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Num6 && page.Num6 >= 41 && page.Num6 <= 50" />
+   		<div class="NFRCNumberValueC">
+        		{{page.Num6}}
+        	</div>
+        </div>
+          	
+       <div class="NFRCBonusC NFRCBallDrawnC ballBonusRecap">
+        <p class="NFRCBonusBannerC" ng-if="page.Bonus">Bonus Ball <img class="NFRCbowImageC" src="http://screens.betfredretail.com/Images/Background/nFiftyChristmasBow.webp" imageonload="ImageLoaded()" ng-if="page.Christmas === 'True'"/></p>
+        	<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/red_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 1 && page.Bonus <= 10" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/blue_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 11 && page.Bonus <= 20" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/yellow_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 21 && page.Bonus <= 30" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/green_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 31 && page.Bonus <= 40" />
+   		<img class="NFRCBallColourC" src="http://screens.betfredretail.com/Images/Background/white_ball0-2.webp" ng-if="page.Bonus && page.Bonus >= 41 && page.Bonus <= 50" />
+   		<div class="NFRCNumberValueC">
+       		 {{page.Bonus}}
+       	</div>
+       	</div>
+       	
+       
+       	
+       	
+       	
+       	
+    </section>
+  
+</section>
+
+
+.NFRCMainPageC
+{
+	font-size: 100%;
+	font-weight: bold;
+	height: 100%;
+	text-transform: uppercase;
+	width: 100%;
+}
+.NFRCImageC
+{
+	background: cover;
+	height: 100%;
+	left: 0%;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	z-index: -3;
+}
+.NFRCBackgroundColourC
+{
+	background: #663399;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 97;
+}
+.NFRCNumbersMainStripC
+{
+	display: flex;
+	height: 16%;
+	justify-content: space-between;
+	left: 6%;
+	position: absolute;
+	top: 44%;
+	width: 87.5%;
+}
+
+.NFRCBallColourC
+{
+	height: 100%;
+	position: absolute;
+	width: 80%;
+}
+.NFRCNumberValueC
+{
+	z-index: 9;
+}
+.NFRCBallOneC,
+ .NFRCBallTwoC,
+ .NFRCBallThreeC,
+ .NFRCBallFourC,
+ .NFRCBallFiveC,
+ .NFRCBallSixC,
+ .NFRCBonusC
+{
+	align-items: center;
+	animation: roll 3s ease-in-out;
+	color: #000;
+	display: flex;
+	font-size: 150%;
+	font-weight: 900;
+	height: 100%;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	width: 13%;
+	z-index: 97;
+	transform: all 1s;
+}
+.NFRCBallDrawnC
+{
+	animation: none;
+}
+.NFRCBonusBannerC
+{
+	animation: bonusPulse 2s infinite 5s;
+	font-size: 36%;
+	font-weight: 900;
+	opacity: 0;
+	position: absolute;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	top: -15%;
+	z-index: 100;
+}
+
+.NFRCbowImageC {
+	width: 50px;
+	position: absolute;
+	right: -26%;
+	top: 35%;
+	transform: rotate(-35deg);
+	z-index: 100;
+}
+
+
+@keyframes roll
+{
+	0%
+	{
+		opacity: 0.5;
+		transform: translate3d(800%, 0, 0) rotate3d(0, 0, 1, 800deg);
+	}
+	75%
+	{
+		opacity: 1;
+		transform: translate3d(0, 0, 0) rotate3d(0, 0, 1, -25deg);
+	}
+	100%
+	{
+		transform: translate3d(-1%, 0, 50deg) rotate3d(0, 0, 1, 25deg);
+	}
+}
+@keyframes bonusPulse
+{
+	from
+	{
+		opacity: 0;
+		transfrom: scale(1);
+	}
+	to
+	{
+		opacity: 1;
+		transform: scale(1.2);
+	}
+}
+.snowflakesMainStrip
+{
+	height: 16%;
+	left: 6%;
+	position: absolute;
+	top: 44%;
+	width: 87.5%;
+	z-index: 99;
+}
+
+.snowflakes
+{
+	
+	height: 100%;
+	margin-left: 2%;
+	overflow: hidden;
+	position: absolute;
+	width: 10%;
+	border-radius: 50%;
+}
+.snowflakes2
+{
+	background: transparent;
+	height: 100%;
+	left: 14.5%;
+	margin-left: 2%;
+	overflow: hidden;
+	position: absolute;
+	width: 13%;
+	border-radius: 50%;
+}
+.snowflakes3
+{
+	background: transparent;
+	height: 100%;
+	left: 29%;
+	margin-left: 2%;
+	overflow: hidden;
+	position: absolute;
+	width: 10%;
+	border-radius: 50%;
+}
+.snowflakes4
+{
+	background: transparent;
+	height: 100%;
+	left: 43.5%;
+	margin-left: 2%;
+	overflow: hidden;
+	position: absolute;
+	width: 13%;
+	border-radius: 50%;
+}
+.snowflakes5
+{
+	background: transparent;
+	height: 100%;
+	left: 58%;
+	margin-left: 2%;
+	overflow: hidden;
+	position: absolute;
+	width: 10%;
+	border-radius: 50%;
+}
+.snowflakes6
+{
+	background: transparent;
+	height: 100%;
+	left: 72.5%;
+	margin-left: 2%;
+	overflow: hidden;
+	position: absolute;
+	width: 13%;
+	border-radius: 50%;
+}
+.snowflakesBonus
+{
+	background: transparent;
+	height: 100%;
+	left: 87%;
+	margin-left: 2%;
+	overflow: hidden;
+	position: absolute;
+	width: 10%;
+	border-radius: 50%;
+}
+.snowflake
+{
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	height: 10px;
+	position: absolute;
+	text-shadow: 0 0 5px #000;
+	text-shadow: 2px 2px 2px #caccad;
+	top: -500%;
+	width: 10px;
+}
+.snowflakeStaticPos
+{
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	height: 10px;
+	position: absolute;
+	text-shadow: 0 0 5px #000;
+	text-shadow: 2px 2px 2px #caccad;
+	top: -500%;
+	width: 10px;
+}
+.snowflake:nth-of-type(0)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 1.5s, 0s;
+	animation-fill-mode: forwards;
+	left: 5%;
+}
+.snowflake:nth-of-type(1)
+{
+	animation: snowflakes-fall3 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 1s, 1s;
+	animation-fill-mode: forwards;
+	left: 10%;
+}
+.snowflake:nth-of-type(2)
+{
+	animation: snowflakes-fall2 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 3s, 0.5s;
+	animation-fill-mode: forwards;
+	left: 20%;
+}
+.snowflake:nth-of-type(3)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 4s, 2s;
+	animation-fill-mode: forwards;
+	left: 30%;
+}
+.snowflake:nth-of-type(4)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2s, 2s;
+	animation-fill-mode: forwards;
+	left: 40%;
+}
+.snowflake:nth-of-type(5)
+{
+	animation: snowflakes-fall3 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 4s, 3s;
+	animation-fill-mode: forwards;
+	left: 50%;
+}
+.snowflake:nth-of-type(6)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2s, 2s;
+	animation-fill-mode: forwards;
+	left: 20%;
+}
+.snowflake:nth-of-type(7)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2.5s, 1s;
+	animation-fill-mode: forwards;
+	left: 35%;
+}
+.snowflake:nth-of-type(8)
+{
+	animation: snowflakes-fall3 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2s, 0s;
+	animation-fill-mode: forwards;
+	left: 55%;
+}
+.snowflake:nth-of-type(9)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 3s, 1.5s;
+	animation-fill-mode: forwards;
+	left: 55%;
+}
+.snowflake:nth-of-type(10)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2s, 0s;
+	animation-fill-mode: forwards;
+	left: 25%;
+}
+.snowflake:nth-of-type(11)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 4s, 2.5s;
+	animation-fill-mode: forwards;
+	left: 55%;
+}
+.snowflake:nth-of-type(12)
+{
+	animation: snowflakes-fall2 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2.5s, 0s;
+	animation-fill-mode: forwards;
+	left: 7%;
+}
+.snowflake:nth-of-type(13)
+{
+	animation: snowflakes-fall2 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 1.5s, 1.5s;
+	animation-fill-mode: forwards;
+	left: 14%;
+}
+.snowflake:nth-of-type(14)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 1s, 1.5s;
+	animation-fill-mode: forwards;
+	left: 23%;
+}
+.snowflake:nth-of-type(15)
+{
+	animation: snowflakes-fall3 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 3s, 1.5s;
+	animation-fill-mode: forwards;
+	left: 36%;
+}
+.snowflake:nth-of-type(16)
+{
+	animation: snowflakes-fall3 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 3s, 2s;
+	animation-fill-mode: forwards;
+	left: 48%;
+}
+.snowflake:nth-of-type(17)
+{
+	animation: snowflakes-fall3 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 3.2s, 2s;
+	animation-fill-mode: forwards;
+	left: 53%;
+}
+.snowflake:nth-of-type(18)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2.5s, 1.5s;
+	animation-fill-mode: forwards;
+	left: 27%;
+}
+.snowflake:nth-of-type(19)
+{
+	animation: snowflakes-fall2 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 3s, 1.5s;
+	animation-fill-mode: forwards;
+	left: 39%;
+}
+.snowflake:nth-of-type(20)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 2.5s, 0s;
+	animation-fill-mode: forwards;
+	left: 53%;
+}
+.snowflake:nth-of-type(21)
+{
+	animation: snowflakes-fall3 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 3.5s, 1s;
+	animation-fill-mode: forwards;
+	left: 59%;
+}
+.snowflake:nth-of-type(22)
+{
+	animation: snowflakes-fall 5s, snowflakes-shake 5s, linear, ease-in-out;
+	animation-delay: 1s, 0s;
+	animation-fill-mode: forwards;
+	left: 17%;
+}
+.snowflakeStaticPos:nth-of-type(0)
+{
+	left: 5%;
+	top: 70%;	
+}
+.snowflakeStaticPos:nth-of-type(1)
+{
+	left: 10%;
+	top: 55%;
+
+}
+.snowflakeStaticPos:nth-of-type(2)
+{
+	left: 20%;
+	top: 60%;
+
+}
+.snowflakeStaticPos:nth-of-type(3)
+{
+	left: 30%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(4)
+{
+	left: 40%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(5)
+{
+	left: 50%;
+	top: 55%;
+
+}
+.snowflakeStaticPos:nth-of-type(6)
+{
+	left: 20%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(7)
+{
+	left: 35%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(8)
+{
+	left: 55%;
+	top: 55%;
+
+}
+.snowflakeStaticPos:nth-of-type(9)
+{
+	left: 55%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(10)
+{
+	left: 25%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(11)
+{
+	left: 55%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(12)
+{
+	left: 7%;
+	top: 60%;
+
+}
+.snowflakeStaticPos:nth-of-type(13)
+{
+	left: 14%;
+	top: 60%;
+
+}
+.snowflakeStaticPos:nth-of-type(14)
+{
+	left: 23%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(15)
+{
+	left: 36%;
+	top: 55%;
+
+}
+.snowflakeStaticPos:nth-of-type(16)
+{
+	left: 48%;
+	top: 55%;
+
+}
+.snowflakeStaticPos:nth-of-type(17)
+{
+	left: 53%;
+	top: 55%;
+
+}
+.snowflakeStaticPos:nth-of-type(18)
+{
+	left: 27%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(19)
+{
+	left: 39%;
+	top: 60%;
+
+}
+.snowflakeStaticPos:nth-of-type(20)
+{
+	left: 53%;
+	top: 70%;
+
+}
+.snowflakeStaticPos:nth-of-type(21)
+{
+	left: 59%;
+	top: 55%;
+
+}
+.snowflakeStaticPos:nth-of-type(22)
+{
+	left: 17%;
+	top: 70%;
+
+}
+
+@keyframes snowflakes-fall
+{
+	0%
+	{
+		top: -500px;
+	}
+	100%
+	{
+		top: 70%;
+	}
+}
+@keyframes snowflakes-fall2
+{
+	0%
+	{
+		top: -500px;
+	}
+	100%
+	{
+		top: 60%;
+	}
+}
+@keyframes snowflakes-fall3
+{
+	0%
+	{
+		top: -500px;
+	}
+	100%
+	{
+		top: 55%;
+	}
+}
+@keyframes snowflakes-shake
+{
+	0%,
+	100%
+	{
+		transform: translateX(0);
+	}
+	50%
+	{
+		transform: translateX(50px);
+	}
+}
+
+.ballOneRecap {
+	animation: recap 1s ease-in-out;
+	animation-delay: 2s;	
+}
+
+.ballTwoRecap {
+	animation: recap 1s ease-in-out;
+	animation-delay: 4s;	
+}
+
+.ballThreeRecap {
+	animation: recap 1s ease-in-out;
+	animation-delay: 6s;	
+}
+
+.ballFourRecap {
+	animation: recap 1s ease-in-out;
+	animation-delay: 8s;	
+}
+
+.ballFiveRecap {
+	animation: recap 1s ease-in-out;
+	animation-delay: 10s;	
+}
+
+.ballSixRecap {
+	animation: recap 1s ease-in-out;
+	animation-delay: 12s;	
+}
+
+.ballBonusRecap {
+	animation: recap 1s ease-in-out;
+	animation-delay: 14s;
+}
+@keyframes recap {
+
+
+	0%,
+	100%
+	{
+		top: auto;
+		
+		
+	}
+	50% {
+		transform: translateY(-50%) scale(1.2);
+	}
+	
+}
