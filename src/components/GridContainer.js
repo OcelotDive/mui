@@ -1,13 +1,15 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Grid } from '@material-ui/core';
+import { Grid, Paper } from '@material-ui/core';
 
 
 const GridContainer = (props) => {
     return (
         <Grid container justify="space-around">
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={4} > 
+            <Paper>
                 {props.gridItemOne}
+             </Paper>   
             </Grid>
             <Grid item xs={12} md={4}>
                 {props.gridItemTwo}

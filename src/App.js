@@ -7,6 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import DefaultButton from './components/DefaultButton';
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import GridContainer from './components/GridContainer';
+import Para from './components/Para';
 
 
 
@@ -38,6 +39,7 @@ function App() {
           </Grid>
           <DefaultButton />
           <GridContainer />
+          <Para />
         </Paper>
       </ThemeProvider>
 
