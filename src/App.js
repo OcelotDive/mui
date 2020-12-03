@@ -8,6 +8,7 @@ import DefaultButton from './components/DefaultButton';
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import GridContainer from './components/GridContainer';
 import Para from './components/Para';
+import InfoCard from './components/InfoCard'
 
 
 
@@ -17,11 +18,12 @@ import Para from './components/Para';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
-
   const theme = createMuiTheme({
     palette: {
       type: darkMode ? "dark" : "light"
-    }
+    },
+
+
   });
 
   const handleChange = () => {
@@ -30,7 +32,7 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Paper style={{ height: '100vh' }}>
+        {/*} <Paper>
           <Grid container >
             <Typography variant="h6">Switch Theme</Typography>
             <Button variant="contained" color="primary" >Light</Button>
@@ -41,10 +43,38 @@ function App() {
           <GridContainer />
           <Para />
         </Paper>
+  */}
+        <Switch checked={darkMode} onChange={handleChange} />
+
+        <Grid container justify="flex-end" spacing={2} >
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} container justify="center">
+            <InfoCard />
+          </Grid>
+        </Grid>
+
       </ThemeProvider>
-
     </>
-
   );
 }
 
