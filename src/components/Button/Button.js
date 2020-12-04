@@ -14,11 +14,14 @@ const Button = ({ val }) => {
 
     }
 
+    const changed = () => {
+        alert("changed");
+    }
 
 
 
     return (
-        <button data-testid="count" onClick={increase} className={myClass}>{`${val} ${count}`}</button>
+        <button data-testid="count" onClick={increase} onChange={changed} className={myClass}>{`${val} ${count}`}</button>
     )
 }
 

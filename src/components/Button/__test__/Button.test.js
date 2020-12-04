@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent, cleanup, waitFor, waitForDomChange, findBy } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Button, { increase } from '../Button';
+import Button, { } from '../Button';
 
 afterEach(cleanup);
 
@@ -36,11 +36,10 @@ it('should change className on click', async () => {
 
   let btn = getByText(/0/i);
   fireEvent.click(btn);
-  // take off async and await for synch click
+  // take off async and await for sync click
   await waitFor(() => expect(btn).toHaveClass('foo'));
   expect(btn.className).toBe('foo');
 })
-
 
 it('should call increase on click', async () => {
   const mockOnClick = jest.fn();
@@ -48,5 +47,15 @@ it('should call increase on click', async () => {
   let btn = getByText(/0/i);
   fireEvent.click(btn);
   await waitFor(() => mockOnClick())
-  expect(mockOnClick).toBeCalledTimes(0);
+  expect(mockOnClick).toBeCalledTimes(1);
 })
+
+it('should call changed when changed', async () => {
+  const mockOnChange = jest.fn();
+  const { getByText } = render(<Button val={'click this button'} onChange={mockOnChange} />);
+  let btn = getByText(/0/i);
+  fireEvent.change(btn);
+  await waitFor(() => mockOnChange());
+  expect(mockOnChange).toBeCalledTimes(1);
+})
+
